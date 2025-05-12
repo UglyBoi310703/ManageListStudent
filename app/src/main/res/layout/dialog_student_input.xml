@@ -3,18 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tvName"
+    <EditText
+        android:id="@+id/etDialogName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:hint="Full Name"
+        android:layout_marginBottom="8dp" />
 
-    <TextView
-        android:id="@+id/tvId"
+    <EditText
+        android:id="@+id/etDialogId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14sp" />
+        android:hint="Student ID"
+        android:layout_marginBottom="8dp" />
+
 </LinearLayout>
